@@ -176,6 +176,134 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s;
 }
 
-.footer__social-media__icon:hover svg path {
-  fill: red;
+.footer {
+  background-color: #242C34;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.footer__container {
+  width: 1218px;
+  display: flex;
+}
+.footer__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  width: 209px;
+}
+.footer__logo svg path {
+  transition: all 0.3s;
+}
+.footer__logo:hover svg path {
+  transition: all 0.3s;
+  fill: #617E8C;
+}
+.footer__name {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__social-media {
+  display: flex;
+  margin-top: 16.5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-media a svg path {
+  transition: all 0.3s;
+}
+.footer__social-media a:hover svg path {
+  transition: all 0.3s;
+  fill: #617E8C;
+}
+.footer__copy {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 31px;
+}
+.footer__links {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+.footer__links__list__item {
+  margin-top: 6px;
+}
+.footer__links__list__item:first-child {
+  margin-top: 0px;
+}
+.footer__links__list__item a {
+  transition: all 0.3s;
+}
+.footer__links__list__item:hover a {
+  color: #617E8C;
+  transition: all 0.3s;
+}
+.footer__phones {
+  display: flex;
+  flex-direction: column;
+}
+.footer__phones__questions {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-bottom: 7px;
+}
+.footer__phones__phone {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  align-self: flex-end;
+  color: #92DDD7;
+  transition: all 0.3s;
+}
+.footer__phones__phone:hover {
+  transition: all 0.3s;
+  color: #617E8C;
+}
+.footer__phones__button {
+  margin-top: 23px;
+}
+.footer__phones__button button {
+  background-color: #72D2CB;
+  padding: 12px 42px;
+  border-radius: 51px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15.2761px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.footer__phones__button button:hover {
+  transition: all 0.3s;
+  background-color: #617E8C;
 }
