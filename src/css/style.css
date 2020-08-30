@@ -68,3 +68,109 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
 }
+
+.header {
+  background-color: #72D2CB;
+  display: flex;
+  justify-content: center;
+}
+.header__container {
+  width: 1218px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 31px;
+}
+.header__info {
+  display: flex;
+  justify-content: space-between;
+}
+.header__subways {
+  display: flex;
+}
+.header__subways__list {
+  margin-left: 14px;
+}
+.header__subways__list__item {
+  margin-top: 4px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.header__subways__list__item:first-child {
+  margin-top: 0px;
+}
+.header__subways__list__item:hover {
+  color: #617E8C;
+  transition: all 0.3s;
+}
+.header__logo svg path {
+  transition: all 0.3s;
+}
+.header__logo:hover svg path {
+  fill: #617E8C;
+  transition: all 0.3s;
+}
+.header__phones {
+  display: flex;
+  flex-direction: column;
+}
+.header__phones__questions {
+  align-self: flex-end;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.header__phones__phone {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.header__phones__phone:hover {
+  color: #617E8C;
+  transition: all 0.3s;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.header__nav ul {
+  display: flex;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-top: 1px solid #92DDD7;
+  border-bottom: 1px solid #92DDD7;
+  padding: 20px 40px;
+}
+.header__nav ul li {
+  margin-left: 40px;
+}
+.header__nav ul li a {
+  transition: all 0.3s;
+}
+.header__nav ul li:first-child {
+  margin-left: 0px;
+}
+.header__nav ul li:hover a {
+  color: #617E8C;
+  transition: all 0.3s;
+}
