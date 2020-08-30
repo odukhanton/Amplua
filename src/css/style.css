@@ -175,3 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #617E8C;
   transition: all 0.3s;
 }
+
+.footer__social-media__icon:hover svg path {
+  fill: red;
+}
