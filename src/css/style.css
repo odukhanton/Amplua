@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #72D2CB;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .header__container {
   width: 1218px;
