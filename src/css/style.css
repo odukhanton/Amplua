@@ -181,6 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   padding: 30px 0;
+  margin-top: 100px;
 }
 .footer__container {
   width: 1218px;
@@ -601,4 +602,107 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contacts__form form .big-text-in-form {
   height: 130px;
+}
+
+.locations {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.locations__container {
+  width: 1218px;
+  display: flex;
+  flex-direction: column;
+}
+.locations__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.locations__location {
+  display: flex;
+  flex-direction: column;
+}
+.locations__location__title {
+  font-family: Andantino script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #242C34;
+}
+.locations__location__city {
+  margin-top: 10px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #242C34;
+}
+.locations__location__subway-station {
+  margin-top: 10px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #242C34;
+}
+.locations__location__address {
+  margin-top: 10px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #242C34;
+}
+.locations__location__about {
+  margin-top: 30px;
+  display: flex;
+}
+.locations__location__about__txt {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #72D2CB;
+  transition: all 0.3s;
+}
+.locations__location__about__img {
+  margin-left: 10px;
+}
+.locations__location__about svg path {
+  transition: all 0.3s;
+}
+.locations__location__about:hover svg path {
+  fill: #617E8C;
+  transition: all 0.3s;
+}
+.locations__location__about:hover .locations__location__about__txt {
+  color: #617E8C;
+  transition: all 0.3s;
+}
+.locations__location__map {
+  margin-top: 30px;
+}
+.locations__get-back {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+.locations__get-back__text {
+  margin-left: 10px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #242C34;
 }

@@ -1,0 +1,87 @@
+.locations
+    margin-top: 150px
+    display: flex
+    justify-content: center
+    &__container
+        width: 1218px
+        display: flex
+        flex-direction: column
+    &__blocks
+        display: flex
+        justify-content: space-between
+    &__location
+        display: flex
+        flex-direction: column
+        &__title
+            font-family: Andantino script
+            font-style: normal
+            font-weight: normal
+            font-size: 54px
+            line-height: 100%
+            letter-spacing: -0.03em
+            color: #242C34
+        &__city
+            margin-top: 10px
+            font-family: Noto Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 100%
+            color: #242C34
+        &__subway-station
+            margin-top: 10px
+            font-family: Noto Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 100%
+            color: #242C34
+        &__address
+            margin-top: 10px
+            font-family: Noto Serif
+            font-style: normal
+            font-weight: 600
+            font-size: 24px
+            line-height: 140%
+            color: #242C34
+        &__about
+            margin-top: 30px
+            display: flex
+            &__txt
+                font-family: Noto Serif
+                font-style: normal
+                font-weight: bold
+                font-size: 16px
+                line-height: 140%
+                letter-spacing: 0.1em
+                text-transform: uppercase
+                color: #72D2CB
+                transition: all 0.3s
+            &__img
+                margin-left: 10px
+            svg path
+                transition: all 0.3s
+            &:hover
+                svg path
+                    fill: #617E8C
+                    transition: all 0.3s
+                .locations__location__about__txt
+                    color: #617E8C
+                    transition: all 0.3s
+        &__map
+            margin-top: 30px
+    &__get-back
+        display: flex
+        align-items: flex-end
+        margin-top: 30px
+        &__text
+            margin-left: 10px
+            font-family: Noto Serif
+            font-style: normal
+            font-weight: bold
+            font-size: 14px
+            line-height: 100%
+            letter-spacing: 0.1em
+            text-transform: uppercase
+            color: #242C34
+
