@@ -1,0 +1,118 @@
+.reviews
+    display: flex
+    justify-content: center
+    margin-bottom: 50px
+    &__container
+        width: 1218px
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        font-family: Noto Serif
+        font-style: normal
+        font-weight: bold
+        font-size: 56px
+        line-height: 120%
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #242C34
+    &__subtitle
+        margin-top: 20px
+        font-family: Andantino script
+        font-style: normal
+        font-weight: normal
+        font-size: 54px
+        line-height: 100%
+        letter-spacing: -0.03em
+        color: #242C34
+        text-align: center
+    &__slider
+        margin-top: 50px
+        display: flex
+        width: 100%
+        justify-content: space-between
+        &__slide
+            display: flex
+            flex-direction: column
+            position: relative
+            border: 1px solid #72D2CB
+            border-radius: 30px
+            border-bottom: none
+            padding-bottom: 10px
+            &__top
+                background-color: #72D2CB
+                height: 100px
+                width: 598px
+                border-radius: 30px 30px 0px 0px
+            &__photo
+                position: absolute
+                background-color: #FFFFFF
+                padding: 3px
+                border-radius: 50%
+                left: 40%
+                top: 7%
+                img
+                    border-radius: 50%
+            &__content
+                margin-top: 10%
+                display: flex
+                flex-direction: column
+                align-items: center
+                &__title
+                    font-family: Noto Serif
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 26px
+                    line-height: 140%
+                    color: #242C34
+                &__date
+                    font-family: Noto Sans
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 150%
+                    color: #617E8C
+                    margin-top: 8px
+                &__text
+                    margin-top: 38px
+                    font-family: Noto Sans
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 150%
+                    color: #242C34
+                &__read-full
+                    margin-top: 20px
+                    display: flex
+                    &__txt
+                        font-family: Noto Sans
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 150%
+                        color: #617E8C
+                    &__image
+                        margin-left: 10px
+            &__bottom-picture
+                position: absolute
+                bottom: -25px
+                left: 45%
+            &::before
+                content: ''
+                position: absolute
+                bottom: 0
+                width: 35%
+                height: 1px
+                left: 4%
+                background-color: #72D2CB
+            &::after
+                content: ''
+                position: absolute
+                bottom: 0
+                width: 35%
+                height: 1px
+                right: 4%
+                background-color: #72D2CB
+                
+            
+                
