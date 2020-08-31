@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 .reviews {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-top: 150px;
 }
 .reviews__container {
   width: 1218px;
@@ -441,4 +441,164 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   right: 4%;
   background-color: #72D2CB;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.contacts__container {
+  width: 1218px;
+  flex-direction: column;
+}
+.contacts__title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts__title__text {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #242C34;
+}
+.contacts__title__line {
+  width: 75%;
+  height: 1px;
+  background-color: #617E8C;
+}
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__info__phones {
+  display: flex;
+}
+.contacts__info__phones__telephones {
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts__info__phones__telephones__phone {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #242C34;
+}
+.contacts__info__phones__telephones__time {
+  margin-top: 10px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #242C34;
+}
+.contacts__info__mail {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.contacts__info__mail__e-mail {
+  margin-left: 14px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #242C34;
+}
+.contacts__info__addres {
+  margin-top: 30px;
+  display: flex;
+}
+.contacts__info__addres__text {
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts__info__addres__text__title {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #242C34;
+}
+.contacts__info__addres__text__info {
+  margin-top: 10px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #242C34;
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #72D2CB;
+  padding: 30px 100px;
+}
+.contacts__form__title {
+  font-family: Andantino script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 68px;
+  line-height: 80%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  text-align: center;
+}
+.contacts__form form {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__form form input {
+  width: 395px;
+  height: 55px;
+  margin-top: 16px;
+  border-radius: 8px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #617E8C;
+  padding-left: 18px;
+}
+.contacts__form form input:first-child {
+  margin-top: 41px;
+}
+.contacts__form form button {
+  margin-top: 20px;
+  background: #FF7077;
+  border-radius: 10px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 24px 87px;
+}
+.contacts__form form .big-text-in-form {
+  height: 130px;
 }

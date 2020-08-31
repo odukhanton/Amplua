@@ -1,0 +1,33 @@
+.contacts
+    .contacts__container
+        .contacts__title
+            .contacts__title__text Контакты
+            .contacts__title__line
+        .contacts__content
+            .contacts__info
+                .contacts__info__phones
+                    .contacts__info__phones__img
+                        img(src="../../img/repeating-blocks/reviews/phone.svg", alt="Телефон")
+                    .contacts__info__phones__telephones
+                        .contacts__info__phones__telephones__phone +7 812 988 72 52
+                        .contacts__info__phones__telephones__phone +7 911 845 54 65
+                        .contacts__info__phones__telephones__time Прием звонков с 10:00 до 20:00<br>Понедельник - Суббота
+                .contacts__info__mail 
+                    .contacts__info__mail__img 
+                        img(src="../../img/repeating-blocks/reviews/mail.svg", alt="Почта")
+                    .contacts__info__mail__e-mail dt-amplya@mail.ru
+                .contacts__info__addres
+                    .contacts__info__addres__img
+                        img(src="../../img/repeating-blocks/reviews/geo.svg", alt="Геолокация")
+                    .contacts__info__addres__text
+                        .contacts__info__addres__text__title Адреса студий «Амплуа»
+                        .contacts__info__addres__text__info ул. Мира 3 (м. Горьковская)<br>пр. Стачек 170 В (м. Ленинский пр. / Автово)<br>ул. Есенина 1/1 (м. Озерки)
+            .contacts__form
+                .contacts__form__title Записаться<br>на занятие
+                form(action="")
+                    input(type="text" placeholder="Ваше имя")
+                    input(type="tel" placeholder="Номер телефона")
+                    input(type="email" placeholder="Эл. адрес")
+                    input(type="text" placeholder="Имя и возраст ребёнка")
+                    input(type="text" placeholder="Ваше сообщение..." class="big-text-in-form")
+                    button отправить заявку
